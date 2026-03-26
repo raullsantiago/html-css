@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    
+    <p>tente abrir esse site em varios dispositivos ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-raul-300.jpg" type="image/jpg">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-raul-700.jpg" type="image/jpg"> 
+    <img src="imagens/foto-raul-1000.jpg" alt="imagem flexivel">
+</picture>
+
+<h1>Reproduzindo áudio</h1>
+<p>Vamos aprender a reproduzir áudio em HTML5</p>
+  <audio src="midia/midia_happy-mistake.mp3"  controls></audio>
+  <audio src="midia/guanacast-33.mp3" controls></audio>
+
+  <p>caso não consiga reproduzir os audios, click abaixo para baixa-los: </p>
+  <p><a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">Podcast guanabara</a></p>
+  <p><a href="midia/midia_happy-mistake.mp3" download="midia_happy-mistake.mp3" type="audio/mpeg">Musica Happy mistakea</a></p>
+
+  
+  
+
+</body>
+</html>

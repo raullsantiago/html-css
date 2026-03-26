@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de hover e pseudoclasses</title>
+
+<style>
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    div:hover {
+        color: rgb(12, 12, 12);
+    }
+
+    div > p {
+        display: none;
+    }
+    
+    div:hover > p {
+        display: block;
+        width: 150px;
+        background-color: yellow;
+        }
+    
+    div#r1, div#r2, div#r3, div#r4 {
+        display: inline-block;
+        background-color: #444242;
+        border: 1px;
+        text-align: center;
+        height: 250px;
+        width: 250px;
+    } 
+  
+    div:hover#r1,:hover#r2, :hover#r3, :hover#r4 {
+        background-color: blueviolet;
+    }
+    
+    div.especial:hover {
+        color: blue;
+    }
+
+    
+
+
+</style>
+
+</head>
+<body>
+    <h1>Teste de pseudo-classes</h1>
+    <p>olá vou testar aqui pseudo-classes e hover</p>
+    <div class="especial">
+        Passe o mouse aqui!!!
+        <p>parabéns! você conseguiu cara!!! agora é só você continuar estudando!!!!</p>
+    </div>
+    <p>FIM DO primeiro TESTE!!!!</p>
+    <div id="r1">1</div>
+    <div id="r2">2</div>
+    <div id="r3">3</div>
+    <div id="r4">4</div>
+</body>
+</html>

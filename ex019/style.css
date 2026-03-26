@@ -1,0 +1,44 @@
+@charset"utf8";
+
+/* em html é ID em css é #
+   em html é class em css é . (ponto) */
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:rgb(14, 222, 7) ;
+    text-shadow: 1px 1px 2px black;
+   }
+
+h1#principal {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(4, 109, 0);
+    color: white;
+    text-shadow: 3px 2px 3px black;
+    }
+
+.basico {
+    color: green;
+    text-shadow: 1px 1px 2px black;
+}    
+
+.intermediario {
+    color: rgba(179, 179, 5, 0.672);
+    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+}
+
+.avancado {
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    color: rgb(73, 100, 101);
+    text-shadow: 1px 1px 2px black;   
+}

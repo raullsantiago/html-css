@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+
+    <style>
+      
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+       
+      table {
+         width: 500px;
+         border-collapse: collapse;
+      } 
+
+      caption {
+        font-weight: bolder;
+        font-size: 1.3em;
+        padding: 8px;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+
+      col.cnome {
+        background-color: yellow;
+      }
+
+      col.csexo {
+        background-color: blue;
+      }
+
+      col.cgroup {
+        background-color: aqua;
+      }
+    </style>
+</head>
+<body>
+
+<table>
+    <colgroup>
+        <col class="cnome">
+        <col class="csexo" span="2">
+        <col class="cgroup">
+        
+    </colgroup>
+
+    <caption>Cadastro</caption>
+
+    <tr>
+       <th scope="col">Nome</th>
+       <th scope="col">Sexo</th>
+       <th scope="col">Idade</th>
+       <th scope="col">Profissão</th>
+    </tr>
+
+    <tr>
+       <td>Ana</td>
+       <td>33 anos</td>
+       <td>feminino</td>
+       <td>Médica</td>
+    </tr>
+
+    <tr>
+        <td>thiago</td>
+        <td>41 anos</td>
+        <td>Masculino</td>
+        <td>Contra mestre</td>
+    </tr>
+
+     <tr>
+        <td>thiago</td>
+        <td>41 anos</td>
+        <td>Masculino</td>
+        <td>Contra mestre</td>
+    </tr>
+    
+    <tr>
+        <td>franciane</td>
+        <td>39 anos</td>
+        <td>feminino</td>
+        <td>Operador(a) de produção</td>
+    </tr>
+    
+    <tr>
+        <td>kauã</td>
+        <td>19 anos</td>
+        <td>Masculino</td>
+        <td>Empresário</td>
+    </tr>
+
+     <tr>
+        <td>Paula</td>
+        <td>35 anos</td>
+        <td>Feminino</td>
+        <td>Operadora de caixa</td>
+    </tr>
+
+
+</table>
+    
+</body>
+</html>

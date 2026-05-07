@@ -8,11 +8,31 @@
 </head>
 
 <body>
+    <h1>Exemplo de formulário</h1>
 
-    <p>
-        <input type="submit" value="enviar">
-        <input type="reset" value="limpar">
-    </p>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isexom" checked value="masculino"><label
+                for="isexom">Masculino</label><br>
+            <input type="radio" name="sexo" id="isexof" value="feminino"><label for="isexof">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbasq" id="iesbasq"> <label for="iesbasq">Basquete</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="estenis" id="iestenis"> <label for="iestenis">tênis </label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
 
 </body>
 

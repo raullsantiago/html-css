@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* versão para as demias midias */
+
+@media (min-width: 600px) {
+    body {
+        background: black url(../imagens/back-tablet.jpg) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img#celular{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+}

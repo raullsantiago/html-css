@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Familia Santiago</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">reorder</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">RAUL</a></li>
+                <li><a href="#">PAULA</a></li>
+                <li><a href="#">ARTHUR</a></li>
+                <li><a href="#">MIGUEL</a></li>
+                <li><a href="#">YGOR</a></li>
+                <li><a href="#">HELENA</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Sobre a Familia Santiago</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus veritatis et optio corporis vero ex magnam, iure numquam sunt molestiae totam, iusto dolor fugit voluptatum repellat saepe enim sequi cumque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda error neque minima rerum repudiandae, vitae totam perferendis minus vero nihil aspernatur non pariatur tempora itaque debitis enim adipisci eius inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore debitis consectetur similique dolorum enim impedit delectus mollitia! Iure culpa quae vitae veritatis laudantium et nihil illum sapiente. Nostrum, repellendus totam!
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus veritatis et optio corporis vero ex magnam, iure numquam sunt molestiae totam, iusto dolor fugit voluptatum repellat saepe enim sequi cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellendus ex sit nesciunt odit, soluta laboriosam facere alias culpa aperiam at tenetur numquam exercitationem maiores sed pariatur similique voluptas quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt dicta neque dolores iusto harum provident saepe sequi asperiores eum itaque suscipit dolorem, laudantium sapiente esse obcaecati quisquam omnis odit?
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, autem ullam? Distinctio, non! Tenetur maxime laboriosam cumque sint quia quae atque placeat eius, repellendus iste! Labore suscipit cum quasi expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis fugiat aliquid maiores modi ea porro repudiandae mollitia nesciunt expedita necessitatibus laudantium, deleniti harum maxime qui eligendi quidem! Tenetur, voluptas odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ut, eius neque dicta, sequi doloribus saepe vitae explicabo perferendis placeat autem similique libero voluptas, velit non. Numquam corporis vitae esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima numquam quas sit unde id mollitia magni consequatur, nostrum optio ullam earum repellendus laboriosam excepturi velit sint? Numquam, autem enim!
+            </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
